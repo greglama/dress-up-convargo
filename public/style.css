@@ -1,0 +1,36 @@
+head
+{
+
+}
+
+body
+{
+  background: #fff2c9;
+}
+
+input
+{
+  background: #ffc200;
+  color: #ffffff;
+}
+
+#Trucker
+{
+
+}
+
+#shipper
+{
+
+}
+
+#actors
+{
+  width: 300px;
+  margin: auto;
+  border: 1px solid red;
+}
+
+.actor
+{
+}
