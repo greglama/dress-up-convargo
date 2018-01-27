@@ -1,6 +1,22 @@
-head
+/*couleur
+gris claire : #D7D7D7
+gris foncé : #686868
+jaune : #FFFF00
+noir
+*/
+*
 {
+    padding: 0px;
+    margin: 0px;
+}
 
+header
+{
+  background: #686868;
+  color: #FFFF00;
+  padding: 1em;
+  text-align: left;
+  font-size: 2em;
 }
 
 body
@@ -10,8 +26,20 @@ body
 
 input
 {
-  background: #ffc200;
-  color: #ffffff;
+  border: 1px solid orange;
+  background: white;
+  color: ##0000aa;
+  border-radius:4px;
+}
+
+input:hover
+{
+  border: 2px solid darkOrange;
+}
+
+#content
+{
+
 }
 
 #Trucker
