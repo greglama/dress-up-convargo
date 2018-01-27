@@ -1,8 +1,9 @@
 /*couleur
-gris claire : #D7D7D7
-gris foncé : #686868
-jaune : #FFFF00
-noir
+bright grey : #D7D7D7
+dark grey : #686868
+yellow
+black and white
+
 */
 *
 {
@@ -13,7 +14,7 @@ noir
 header
 {
   background: #686868;
-  color: #FFFF00;
+  color: yellow;
   padding: 1em;
   text-align: left;
   font-size: 2em;
@@ -21,42 +22,73 @@ header
 
 body
 {
-  background: #fff2c9;
+  background-image: url("road.jpg");
+  background-position: center top;
 }
 
 input
 {
-  border: 1px solid orange;
+  border: 2px solid yellow;
   background: white;
-  color: ##0000aa;
+  font-size: 1.5em;
   border-radius:4px;
+  margin: 1em;
 }
 
 input:hover
 {
-  border: 2px solid darkOrange;
+  border: 2px solid orange;
+}
+
+#compute
+{
+  font-size: 1.25em;
+  margin-left: 5em;
+  color: yellow;
+  background-color: #686868;
+  border: none;
+  padding: 0.25em;
+  box-shadow: inset 0px 0px 1px 0px black;
+}
+
+#compute:hover
+{
+  box-shadow: inset 0px 0px 15px 0px black;
+}
+
+#compute:focus
+{
+  box-shadow: inset 0px 0px 50px 0px black;
 }
 
 #content
 {
-
+  background: white;
+  opacity: 0.90;
+  margin-top: 2em;
+  margin-left: 4em;
+  margin-right: 4em;
+  margin-bottom: 2em;
 }
 
-#Trucker
+#trucker
 {
-
+  padding-left: 2em;
+  padding-right: 2em;
+  text-align: center;
 }
 
 #shipper
 {
-
+  padding-left: 2em;
+  padding-right: 2em;
+  text-align: center;
 }
 
 #actors
 {
-  width: 300px;
-  margin: auto;
-  border: 1px solid red;
+  padding: 2em;
+  text-align: center;
 }
 
 .actor
