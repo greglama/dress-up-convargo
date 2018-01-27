@@ -37,13 +37,28 @@ input
 
 input:hover
 {
-  border: 2px solid orange;
+  box-shadow: inset 0px 0px 3px 0px yellow;
+}
+
+input:focus
+{
+  box-shadow: inset 0px 0px 10px 0px yellow;
+}
+
+input::placeholder {
+  color: black;
+}
+
+#labelOption
+{
+  font-size: 1.5em;
 }
 
 #compute
 {
   font-size: 1.25em;
   margin-left: 5em;
+  margin-bottom: 1em;
   color: yellow;
   background-color: #686868;
   border: none;
@@ -64,10 +79,10 @@ input:hover
 #content
 {
   background: white;
-  opacity: 0.90;
-  margin-top: 2em;
-  margin-left: 4em;
-  margin-right: 4em;
+  opacity: 0.95;
+  margin-top: 4em;
+  margin-left: 10em;
+  margin-right: 10em;
   margin-bottom: 2em;
 }
 
@@ -87,10 +102,13 @@ input:hover
 
 #actors
 {
+  background-color: #D7D7D7;
+  text-align: left;
+  border: 3px solid yellow;
   padding: 2em;
-  text-align: center;
 }
 
 .actor
 {
+  font-size: 1.5em;
 }
